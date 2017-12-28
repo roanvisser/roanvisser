@@ -2479,7 +2479,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: #343131;
 		background-attachment: scroll,								fixed;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
@@ -2488,7 +2488,7 @@
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 2em 3em;
+		padding: 1em 2em;
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -2528,7 +2528,7 @@
 		}
 
 		#header .image.avatar {
-			margin: 0 1em 1em 0;
+			margin: 0 0.5em 1em 0;
 			width: 6.25em;
 		}
 
@@ -2578,9 +2578,9 @@
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			border-bottom: solid 2px #efefef;
 			margin: 4em 0 0 0;
-			padding: 4em 0 0 0;
+			padding: 2em 0 0 0;
 		}
 
 			#main > section:first-child {
@@ -3136,14 +3136,12 @@
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		background-color: #ffffff;
-		color: ##49bf9d;
+		color: #49bf9d;
 		position: fixed;
 		width: 100%;
 		max-width: calc(100% - 4em);
-		padding: 1em;
+		padding: 0.25em;
 		background-color: #ffffff;
-		border-top-left-radius: 0.25em;
-		border-top-right-radius: 0.25em;
 		cursor: default;
 		text-align: left;
 		z-index: 10;
@@ -3171,7 +3169,7 @@
 		}
 
 		#nav code {
-			background: rgba(222, 222, 222, 0.25);
+			background: rgba(222, 222, 222, 0.2);
 			border-color: #dddddd;
 		}
 
@@ -3180,7 +3178,7 @@
 		}
 
 		#nav + #main {
-			padding-top: 4.25em;
+			padding-top: 0em;
 		}
 
 		#nav ul {
