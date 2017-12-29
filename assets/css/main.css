@@ -2252,7 +2252,7 @@
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
-		width: 40%;
+		width: 50%;
 		float: right; 
 	}
 
