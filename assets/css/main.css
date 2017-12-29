@@ -2189,7 +2189,7 @@
 
 		.image.avatar {
 			border-radius: 100%;
-			float: Left; 
+			float: center; 
 		}
 
 			.image.avatar:before {
@@ -2387,15 +2387,14 @@
 		}
 
 		table th {
-			font-size: 1.35em;
-			font-weight: 400;
-			padding: 0 0.75em 0.75em 0.75em;
+
 			text-align: right;
 
 		}
 
 		table thead {
 			border-bottom: solid 0px #efefef;
+
 		}
 
 		table tfoot {
@@ -2595,17 +2594,17 @@
 		background-color: #343131;
 		background-attachment: scroll,								fixed;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-position: top left,							top left;
+		background-position: right top,							right top;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								auto 100%;
+		background-size: auto,									auto 100%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 1em 2em;
+		padding: 5em 2em;
 		position: fixed;
-		text-align: right;
+		text-align: center;
 		top: 0;
-		width: 30%;
+		width: 25%;
 	}
 
 		#header > * {
@@ -2689,14 +2688,15 @@
 	#main {
 		margin-left: 30%;
 		max-width: 54em;
-		padding: 4em 4em 4em 4em;
+		padding: 2em 2em 2em 2em;
 		width: calc(100% - 30%);
+		margin-top: 5em;
 	}
 
 		#main > section {
 			border-bottom: solid 2px #efefef;
-			margin: 4em 0 0 0;
-			padding: 4em 0 0 0;
+			margin:  0 0 0;
+			padding:  0 0 0;
 		}
 
 			#main > section:first-child {
@@ -2973,12 +2973,12 @@
 
 /* XLarge */
 
-	@media screen and (max-width: 1800px) {
+	@media screen and (max-width: 2000px) {
 
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 100%;
 			}
 
 	}
@@ -2991,7 +2991,7 @@
 
 			#header {
 				padding: 6em 3em 3em 3em;
-				width: 30%;
+x
 			}
 
 				#header h1 {
@@ -3015,10 +3015,11 @@
 		/* Main */
 
 			#main {
-				margin-left: 30%;
+
 				max-width: none;
 				padding: 6em 3em 3em 3em;
 				width: calc(100% - 30%);
+
 			}
 
 	}
@@ -3036,7 +3037,7 @@
 		/* List */
 
 			ul.icons li .icon {
-				font-size: 1.25em;
+				font-size: 1em;
 			}
 
 		/* Header */
@@ -3261,10 +3262,9 @@
 		text-align: left;
 		z-index: 10;
 		font-size: 1.35em;
-		padding: 0.25em 3em 0.25em 3em;
-		margin-left: 30%;
-		max-width: 54em;
-		width: calc(100% - 30%);
+		padding: 0.25em 0em 0.25em 10%;
+		margin-left: 25%;
+		top: 0;
 	}
 
 		#nav input, #nav select, #nav textarea {
@@ -3358,7 +3358,7 @@
 					font-size: 0.9em;
 				}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 980px) {
 
 			#nav {
 				display: none;
