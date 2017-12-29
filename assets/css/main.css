@@ -1963,6 +1963,10 @@
 
 	.icon {
 		text-decoration: none;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		border-bottom: none;
 		position: relative;
 	}
@@ -1978,6 +1982,111 @@
 
 		.icon > .label {
 			display: none;
+		}
+
+		.icon.major {
+			border: solid 1px;
+			display: inline-block;
+			border-radius: 100%;
+			padding: 0.65em;
+			margin: 0 0 2em 0;
+			cursor: default;
+		}
+
+			.icon.major:before {
+				display: inline-block;
+				font-size: 6.25rem;
+				width: 2.25em;
+				height: 2.25em;
+				line-height: 2.2em;
+				border-radius: 100%;
+				border: solid 1px;
+				text-align: center;
+			}
+
+		.icon.alt {
+			display: inline-block;
+			border: solid 1px;
+			border-radius: 100%;
+		}
+
+			.icon.alt:before {
+				display: block;
+				font-size: 1.25em;
+				width: 2em;
+				height: 2em;
+				text-align: center;
+				line-height: 2em;
+			}
+
+		.icon.style1 {
+			color: #efa8b0;
+		}
+
+		.icon.style2 {
+			color: #c79cc8;
+		}
+
+		.icon.style3 {
+			color: #a89cc8;
+		}
+
+		.icon.style4 {
+			color: #9bb2e1;
+		}
+
+		.icon.style5 {
+			color: #8cc9f0;
+		}
+
+		@media screen and (max-width: 1680px) {
+
+			.icon.major:before {
+				font-size: 5.5rem;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			.icon.major:before {
+				font-size: 4.75rem;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.icon.major {
+				margin: 0 0 1.5em 0;
+				padding: 0.35em;
+			}
+
+				.icon.major:before {
+					font-size: 3.5rem;
+				}
+
+		}
+
+	.icon.major {
+		border-color: rgba(255, 255, 255, 0.35);
+	}
+
+		.icon.major:before {
+			border-color: rgba(255, 255, 255, 0.35);
+		}
+
+	.icon.alt {
+		border-color: rgba(255, 255, 255, 0.35);
+		color: #ffffff;
+	}
+
+		.icon.alt:hover {
+			background-color: rgba(255, 255, 255, 0.075);
+		}
+
+		.icon.alt:active {
+			background-color: rgba(255, 255, 255, 0.2);
 		}
 
 /* Image */
@@ -2080,6 +2189,7 @@
 
 		.image.avatar {
 			border-radius: 100%;
+			float: Left; 
 		}
 
 			.image.avatar:before {
@@ -2252,7 +2362,7 @@
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
-		width: 30%;
+		width: 80%;
 		float: right; 
 	}
 
@@ -2262,34 +2372,37 @@
 	}
 
 		table tbody tr {
-			border: solid 1px #efefef;
+			border: solid 0px #efefef;
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f7f7f7;
+				background-color:  rgba(255, 255, 255, 0.1);
 			}
 
 		table td {
 			padding: 0.1em;
-			
+			text-shadow: 0.5px 0.5px rgba(0, 0, 0, 1)
+			color: rgba(255, 255, 255, 0.8);	
+			font-size: 1em;			
 		}
 
 		table th {
-			color: #787878;
-			font-size: 0.9em;
+			color: rgba(255, 255, 255, 0.8);
+			font-size: 1.35em;
 			font-weight: 400;
 			padding: 0 0.75em 0.75em 0.75em;
-			text-align: left;
+			text-align: right;
+
 		}
 
 		table thead {
-			border-bottom: solid 2px #efefef;
+			border-bottom: solid 0px #efefef;
 		}
 
 		table tfoot {
-			border-top: solid 2px #efefef;
+			border-top: solid 0px #efefef;
 		}
 
 		table.alt {
