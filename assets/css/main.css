@@ -2252,6 +2252,8 @@
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
+		width: 40%;
+		float: right; 
 	}
 
 	table {
@@ -2270,7 +2272,7 @@
 			}
 
 		table td {
-			padding: 0.75em 0.75em;
+			padding: 0.25em 0.25em;
 		}
 
 		table th {
@@ -2509,6 +2511,9 @@
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 			margin: 0 0 2em 0;
+		}
+		#header .icons a {
+			color: rgba(255, 255, 255, 1);
 		}
 
 		#header strong, #header b {
