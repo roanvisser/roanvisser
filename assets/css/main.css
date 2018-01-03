@@ -16,6 +16,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1579,13 +1580,13 @@
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #A7CD3A ;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #A7CD3A  !important;
 			text-decoration: none;
 		}
 
@@ -1792,7 +1793,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #A7CD3A ;
 		}
 
 	.select-wrapper {
@@ -1902,7 +1903,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			border-color: #A7CD3A ;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2462,8 +2463,8 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #A7CD3A ;
+			color: #A7CD3A  !important;
 		}
 
 		input[type="submit"]:active,
@@ -2471,8 +2472,8 @@
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #A7CD3A ;
+			color: #A7CD3A  !important;
 		}
 
 		input[type="submit"].icon,
@@ -2694,9 +2695,9 @@
 	}
 
 		#main > section {
-			border-bottom: solid 2px #efefef;
+			border-top: solid 2px #efefef;
 			margin:  0 0 0;
-			padding:  0 0 0;
+			padding:  4em 0 0;
 		}
 
 			#main > section:first-child {

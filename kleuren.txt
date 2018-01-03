@@ -1,0 +1,20 @@
+A7CD3A licht groen saxion
+rgb 167 205 58
+
+01853A donker groen saxion
+rgb 0 133 58
+
+
+nav
+background-color: #f7f7f7;
+#636363
+#dddddd
+background: rgba(222, 222, 222, 0.2)
+
+
+
+#49bf9d orgineel
+
+
+text
+button
